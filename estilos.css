@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+body {
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  position: relative;
+}
+
+.card {
+  box-sizing: border-box;
+  display: block;
+  width: 300px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*border:1px solid*/
+}
+.card .card-head {
+  /*border:1px solid*/
+  padding-bottom: 100%;
+  position: relative;
+}
+.card .card-head:hover {
+  cursor: pointer;
+}
+.card .card-head:hover .img-2 {
+  opacity: 1;
+}
+.card .card-head:hover .add-btn {
+  display: block;
+}
+.card .card-head * {
+  position: absolute;
+}
+.card .card-head i {
+  font-size: 25px;
+  top: 15px;
+  left: 15px;
+  color: #9bc1bc;
+}
+.card .card-head .add-btn {
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  font-size: 12px;
+  padding: 15px;
+  background-color: #9bc1bc;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+.card .card-head .add-btn:hover {
+  background-color: grey;
+}
+.card .card-head img {
+  width: 100%;
+}
+.card .card-head .img-2 {
+  opacity: 0;
+  transition: 0.5s;
+}
+.card .card-body {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 13px;
+}
+.card .card-body .name {
+  margin: 0;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+.card .card-body .price {
+  color: #2374ab;
+  margin-bottom: 10px;
+}
+.card .card-body .review i {
+  color: #2374ab;
+}
+
+/*# sourceMappingURL=estilos.css.map */
