@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap");
+/** Colores **/
+body {
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #fff;
+  width: 30%;
+}
+
+/** Cabecera de card **/
+.card-head {
+  cursor: pointer;
+  padding-bottom: 100%;
+  position: relative;
+}
+.card-head * {
+  position: absolute;
+}
+.card-head img {
+  transition: 0.5s;
+  width: 100%;
+}
+.card-head:hover .img-1 {
+  opacity: 0;
+}
+.card-head:hover .img-2 {
+  opacity: 1;
+}
+.card-head:hover .add-btn {
+  display: block;
+}
+.card-head .img-1 {
+  opacity: 1;
+}
+.card-head .img-2 {
+  opacity: 0;
+}
+.card-head .add-btn {
+  background-color: #79e5cb;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 12px;
+  font-weight: bold;
+  left: 50%;
+  padding: 15px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+.card-head .add-btn:hover {
+  background-color: #9bc1bc;
+}
+
+/** Like switch **/
+.outline, .filled {
+  color: #79e5cb;
+  font-size: 25px;
+  left: 15px;
+  top: 15px;
+}
+
+.like-switch {
+  cursor: pointer;
+}
+.like-switch input {
+  display: none;
+}
+.like-switch .filled {
+  display: none;
+}
+.like-switch input:checked + .outline {
+  display: none;
+}
+.like-switch input:checked + .outline + .filled {
+  display: inline;
+}
+
+/** Cuerpo de card **/
+.card-body {
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+.card-body .name {
+  font-weight: normal;
+  margin: 0;
+}
+.card-body .price {
+  color: #2374ab;
+  margin: 10px 0;
+}
+.card-body .price .sale {
+  color: #000;
+  text-decoration: line-through;
+}
+.card-body .review i {
+  color: #2374ab;
+}
+.card-body .review .review-count {
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=estilos.css.map */

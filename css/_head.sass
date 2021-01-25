@@ -1,0 +1,37 @@
+/** Cabecera de card **/
+.card-head
+    cursor: pointer
+    padding-bottom: 100%
+    position: relative
+    *
+        position: absolute
+    img
+        transition: .5s
+        width: 100%
+    &:hover
+        .img-1
+            opacity: 0
+        .img-2
+            opacity: 1
+        .add-btn
+            display: block
+    .img-1
+        opacity: 1
+    .img-2
+        opacity: 0
+    .add-btn
+        background-color: $riptide
+        border-radius: 3px
+        border: none
+        color: #fff
+        cursor: pointer
+        display: none
+        font-size: 12px
+        font-weight: bold
+        left: 50%
+        padding: 15px
+        top: 50%
+        transform: translate(-50%, -50%)
+        width: 50%
+        &:hover
+            background-color: $shadow-green

@@ -1,0 +1,17 @@
+/** Like switch **/
+.outline, .filled
+    color: $riptide
+    font-size: 25px
+    left: 15px
+    top: 15px
+.like-switch
+    cursor: pointer
+    input
+        display: none
+    .filled
+        display: none
+    input
+        &:checked + .outline
+            display: none
+        &:checked + .outline + .filled
+            display: inline

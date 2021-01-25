@@ -1,5 +1,5 @@
 # E-commerce cards
 
-### en proceso
+### [Demo in Codepen](https://codepen.io/Javieer57/pen/poEXQWJ)
 
-![thumb](thumb.png)
+![thumb](img/cards_thumb.jpg)

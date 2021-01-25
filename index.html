@@ -5,53 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>E-commerce Cards</title>
 </head>
 
 <body>
-    <!-- <div style="padding: 30px; margin: 0 0 20px; background-color: #79e5cb; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);">
-        <nav style="width: 1000px; margin: auto; display: flex; justify-content: space-between; color:white; align-items: center;">
-            <h1 style="margin: 0;  font-size: 34px;">My K-Pop Store</h1>
-            <ul style="list-style-type:none; padding: 0;">
-                <li style="background-color: white; color: #000;">Inicio</li>
-                <li>Accesorios</li>
-                <i class="fas fa-gem" style="color: #79e5cb; font-size: 30px;"></i>
-                <li>Discos</li>
-                <li>Lightstick</li>
-            </ul>
-        </nav>
-    </div> -->
-
-    <div style="width: 1100px; margin: 20px auto 40px; border-radius: 40px; padding: 15px 50px; background-color: white; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
-        <nav style="display: flex; justify-content: space-between; align-content: center;">
-            <h1 style="margin: 0; font-weight: normal; font-family: 'raleway';">My K-Pop Store</h1>
-            <ul style="list-style-type:none; padding: 0;">
-                <li style="background-color: #79e5cb; color: #fff;">Inicio</li>
-                <li>Accesorios</li>
-                <!-- <i class="fas fa-gem" style="color: #79e5cb; font-size: 30px;"></i> -->
-                <li>Discos</li>
-                <li>Lightstick</li>
-            </ul>
-        </nav>
-    </div>
     <div class="container">
         <div class="card">
             <div class="card-head">
-                <img class="img-1"
-                    src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/shinee-the-story-of-light-dad-hat-hats-shinee-default-title-929430_2000x.jpg?v=1582681068"
-                    alt="">
-                <img src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/shinee-the-story-of-light-dad-hat-hats-shinee-107322_2000x.jpg?v=1582680888"
-                    alt="" class="img-2">
-                <i class="far fa-heart"></i>
-                <!--<i class="fas fa-heart"></i>-->
-                <button class="add-btn">
-                    Add to Cart
-                </button>
+                <img class="img-1" src="img/card_item_1.jpg" alt="gorra promocional" title="gorra promocional">
+                <img class="img-2" src="img/card_item_2.jpg" alt="gorra promocional" title="gorra promocional">
+                <label class="like-switch">
+                    <input type="checkbox">
+                    <i class="outline far fa-heart"></i>
+                    <i class="filled fas fa-heart"></i>
+                </label>
+                <button class="add-btn">Add to Cart</button>
             </div>
             <div class="card-body">
                 <h3 class="name">SHINee The Story of Light Dad Hat</h3>
                 <div class="price">
+                    <span class="sale">$30.00</span>
                     <span>$25.00</span>
                 </div>
                 <div class="review">
@@ -66,19 +41,17 @@
         </div>
         <div class="card">
             <div class="card-head">
-                <img class="img-1"
-                    src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/pre-order-boa-debut-20th-anniversary-big-soju-glass-accessories-boa-264170_2000x.jpg?v=1598472760"
-                    alt="">
-                <img src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/pre-order-boa-debut-20th-anniversary-big-soju-glass-accessories-boa-364499_2000x.jpg?v=1598472764"
-                    alt="" class="img-2">
-                <i class="far fa-heart"></i>
-                <!--<i class="fas fa-heart"></i>-->
-                <button class="add-btn">
-                    Add to Cart
-                </button>
+                <img class="img-1" src="img/card_item_3.jpg" alt="vasos promocionales" title="vasos promocionales">
+                <img class="img-2" src="img/card_item_4.jpg" alt="vasos promocionales" title="vasos promocionales">
+                <label class="like-switch">
+                    <input type="checkbox">
+                    <i class="outline far fa-heart"></i>
+                    <i class="filled fas fa-heart"></i>
+                </label>
+                <button class="add-btn">Add to Cart</button>
             </div>
             <div class="card-body">
-                <h3 class="name">BoA DEBUT 20th ANNIVERSARY BIG SOJU GLASS</h3>
+                <h3 class="name">BoA Debut 20th Anniversary Big Soju Glass</h3>
                 <div class="price">
                     <span>$25.00</span>
                 </div>
@@ -88,22 +61,20 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
-                    <span class="review-count">(1)</span>
+                    <span class="review-count">(10)</span>
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="card-head">
-                <img class="img-1"
-                    src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/shinee-official-fanlight-lightstick-accessories-shinee-default-title-851922_2000x.jpg?v=1582679671"
-                    alt="">
-                <img src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/shinee-official-fanlight-lightstick-accessories-shinee-766536_2000x.jpg?v=1582687262"
-                    alt="" class="img-2">
-                <i class="far fa-heart"></i>
-                <!--<i class="fas fa-heart"></i>-->
-                <button class="add-btn">
-                    Add to Cart
-                </button>
+                <img class="img-1" src="img/card_item_5.jpg" alt="lightstick" title="lightstick">
+                <img class="img-2" src="img/card_item_6.jpg" alt="lightstick" title="lightstick">
+                <label class="like-switch">
+                    <input type="checkbox">
+                    <i class="outline far fa-heart"></i>
+                    <i class="filled fas fa-heart"></i>
+                </label>
+                <button class="add-btn">Add to Cart</button>
             </div>
             <div class="card-body">
                 <h3 class="name">SHINee Official Fanlight (Lightstick)</h3>
@@ -120,147 +91,6 @@
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-head">
-                <img class="img-1"
-                    src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/super-junior-the-9th-album-special-ver-timeline-album-unfolded-poster-albums-super-junior-788649_2000x.jpg?v=1582687514"
-                    alt="">
-                <img src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/super-junior-the-9th-album-special-ver-timeline-album-unfolded-poster-albums-super-junior-401728_2000x.jpg?v=1582687876"
-                    alt="" class="img-2">
-                <i class="far fa-heart"></i>
-                <!--<i class="fas fa-heart"></i>-->
-                <button class="add-btn">
-                    Add to Cart
-                </button>
-            </div>
-            <div class="card-body">
-                <h3 class="name">SUPER JUNIOR The 9th Album Special ver. ‘TIMELINE’ (Album + Unfolded Poster)</h3>
-                <div class="price">
-                    <span>$23.00</span>
-                </div>
-                <div class="review">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span class="review-count">(26)</span>
-                </div>
-            </div>
-        </div>        
-
-        <div class="card">
-            <div class="card-head">
-                <img class="img-1"
-                    src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/pre-order-aespa-logo-printed-sweatshirts-tops-aespa-935050_2400x.jpg?v=1609352477"
-                    alt="">
-                <img src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/pre-order-aespa-logo-printed-sweatshirts-tops-aespa-446778_2000x.jpg?v=1609352477"
-                    alt="" class="img-2">
-                <i class="far fa-heart"></i>
-                <!--<i class="fas fa-heart"></i>-->
-                <button class="add-btn">
-                    Add to Cart
-                </button>
-            </div>
-            <div class="card-body">
-                <h3 class="name">Pre-Order - aespa Logo Printed Sweatshirts</h3>
-                <div class="price">
-                    <span>$42.00</span>
-                </div>
-                <div class="review">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span class="review-count">(1)</span>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-head">
-                <img class="img-1"
-                    src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/hot-topic-x-sm-global-shop-shinee-the-story-of-light-graphic-t-shirt-white-tops-shinee-941536_2000x.jpg?v=1582685906"
-                    alt="">
-                <img src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/hot-topic-x-sm-global-shop-shinee-the-story-of-light-graphic-t-shirt-white-tops-shinee-389925_360x.jpg?v=1582686168"
-                    alt="" class="img-2">
-                <i class="far fa-heart"></i>
-                <!--<i class="fas fa-heart"></i>-->
-                <button class="add-btn">
-                    Add to Cart
-                </button>
-            </div>
-            <div class="card-body">
-                <h3 class="name">Hot Topic X SM Global Shop: SHINee The Story of Light Graphic T-Shirt – White</h3>
-                <div class="price">
-                    <span>$25.00</span>
-                </div>
-                <div class="review">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span class="review-count">(30)</span>
-                </div>
-            </div>
-        </div>        
-        <div class="card">
-            <div class="card-head">
-                <img class="img-1"
-                    src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/boa-official-fanlight-lightstick-accessories-boa-default-title-363011_2000x.jpg?v=1582685448"
-                    alt="">
-                <img src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/boa-official-fanlight-lightstick-accessories-boa-106930_2400x.jpg?v=1582688738"
-                    alt="" class="img-2">
-                <i class="far fa-heart"></i>
-                <!--<i class="fas fa-heart"></i>-->
-                <button class="add-btn">
-                    Add to Cart
-                </button>
-            </div>
-            <div class="card-body">
-                <h3 class="name">BoA Official Fanlight (Lightstick)</h3>
-                <div class="price">
-                    <span>$50.00</span>
-                </div>
-                <div class="review">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span class="review-count">(38)</span>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-head">
-                <img class="img-1"
-                    src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/hot-topic-x-sm-global-shop-shinee-the-story-of-light-t-shirt-black-tops-shinee-898269_2000x.jpg?v=1582688632"
-                    alt="">
-                <img src="https://cdn.shopify.com/s/files/1/0069/4203/1983/products/hot-topic-x-sm-global-shop-shinee-the-story-of-light-t-shirt-black-tops-shinee-915369_2000x.jpg?v=1582685563"
-                    alt="" class="img-2">
-                <i class="far fa-heart"></i>
-                <!--<i class="fas fa-heart"></i>-->
-                <button class="add-btn">
-                    Add to Cart
-                </button>
-            </div>
-            <div class="card-body">
-                <h3 class="name">Hot Topic X SM Global Shop: SHINee The Story of Light T-Shirt – Black</h3>
-                <div class="price">
-                    <span>$15.00</span>
-                </div>
-                <div class="review">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span class="review-count">(35)</span>
-                </div>
-            </div>
-        </div>        
     </div>
 </body>
 
