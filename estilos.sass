@@ -1,21 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap')
+
+*
+    box-sizing: border-box
 
 body
     font-family: 'Karla', sans-serif
     height: 100vh
-    position: relative
+    background-color: #f2f2f2
 
+.container
+    display: flex
+    max-width: 1000px
+    width: 90%
+    margin: 0 auto 40px
+    flex-wrap: wrap
+    justify-content: space-between
+
+ul
+    margin: 0
+    li
+        display: inline-block
+        cursor: pointer
+        padding: 5px 15px
+        border-radius: 20px
+        transition: .2s
+        &:hover
+            background-color: #79e5cb
+            color: white
 
 .card
     box-sizing: border-box
     display: block
-    width: 300px
-    margin: auto
-    position: absolute
-    top: 50%
-    left: 50%
-    transform: translate(-50%, -50%)
-    /*border:1px solid*/
+    background-color: #fff
+    /*left: 50%
+    margin-bottom: 20px
+    /*position: absolute
+    /*top: 50%
+    /*transform: translate(-50%, -50%)
+    width: 24%
     .card-head
         /*border:1px solid*/
         padding-bottom: 100%
@@ -43,13 +65,13 @@ body
             width: 50%
             font-size: 12px
             padding: 15px
-            background-color: #9bc1bc
             color: #fff
             font-weight: bold
             border-radius: 3px
             transition: .3s
+            background-color: #79e5cb
             &:hover
-                background-color: grey
+                background-color: #9bc1bc
         img
             width: 100%
         .img-2
@@ -58,7 +80,8 @@ body
     .card-body
         text-align: center
         padding: 10px 0
-        font-size: 13px
+        font-size: 12px
+        padding: 10px
         .name
             margin: 0
             margin-bottom: 5px
@@ -70,3 +93,5 @@ body
         .review
             i
                 color: #2374ab
+            review-count
+                font-weight: lighter
