@@ -4,23 +4,21 @@ body {
   font-family: "Karla", sans-serif;
   height: 100vh;
   background-color: #f2f2f2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
-  display: flex;
-  max-width: 800px;
-  width: 90%;
-  margin: 0 auto 40px;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 40px auto 40px;
 }
 
-.card {
+[class*=col] {
+  margin-bottom: 20px;
+  display: flex;
+  align-content: stretch;
+}
+
+.ecard {
   background-color: #fff;
-  width: 30%;
+  width: 100%;
 }
 
 /** Cabecera de card **/
@@ -103,6 +101,8 @@ body {
 .card-body .name {
   font-weight: normal;
   margin: 0;
+  font-size: 14px;
+  line-height: 16px;
 }
 .card-body .price {
   color: #2374ab;
